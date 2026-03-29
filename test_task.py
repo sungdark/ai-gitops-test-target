@@ -94,3 +94,5 @@ def test_load_config_reads_existing():
 
             result = task_module.load_config()
             assert result == "# Custom config\nkey: value\n"
+
+
